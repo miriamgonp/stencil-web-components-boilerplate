@@ -16,13 +16,24 @@
   ],
   "scripts": {
     "build": "stencil build --docs",
-    "start": "stencil build --dev --watch --serve",
+    "build-storybook": "build-storybook",
+    "dev": "stencil build --watch --serve",
+    "generate": "stencil generate",
+    "serve": "serve www -p 5000",
+    "start": "run-p dev storybook",
+    "storybook": "start-storybook -p 6006",
     "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watchAll",
-    "generate": "stencil generate"
+    "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "devDependencies": {
-    "@stencil/core": "1.17.2"
+    "@babel/core": "^7.11.0",
+    "@stencil/core": "1.17.2",
+    "@storybook/addon-essentials": "^6.0.0-rc.26",
+    "@storybook/web-components": "^6.0.0-rc.26",
+    "babel-loader": "^8.1.0",
+    "lit-html": "^1.2.1",
+    "npm-run-all": "^4.1.5"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
