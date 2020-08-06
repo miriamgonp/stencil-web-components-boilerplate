@@ -1,6 +1,7 @@
 # Stencil for Web Components boilerplate with Storybook
 
-Hi there 👋  This is a boilerplate for building a standalone Web Component using Stencil and Storybook with addon controls.
+Hi there 👋  
+This is a boilerplate for building a standalone Web Component using Stencil and Storybook with addon controls.
 
 ## 🚀 Getting Started
 
