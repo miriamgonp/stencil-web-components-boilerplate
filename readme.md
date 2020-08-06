@@ -1,7 +1,9 @@
 # Stencil for Web Components boilerplate with Storybook
 
 Hi there 👋  
-This is a boilerplate for building a standalone Web Component using Stencil and Storybook with addon controls.
+This is a boilerplate for building a standalone Web Component using [Stencil](https://github.com/ionic-team/stencil) and [Storybook](https://github.com/storybookjs/storybook) with addon controls.
+
+<img src="https://i.gyazo.com/53b3ea84104bd254c5e097fa573f67d6.gif">
 
 ## 🚀 Getting Started
 
@@ -22,7 +24,7 @@ npm run generate <sub-folder>
 ```
 
 ## 👏 Contributing
-- :octocat: [Pull requests](https://github.com/miriamgonp/stencil-web-components-boilerplate/pulls) and 🌟Stars are always welcome.
+- :octocat: [Pull requests](https://github.com/miriamgonp/stencil-web-components-boilerplate/pulls) and 🌟 stars are always welcome.
 - For major changes, please open an [issue](https://github.com/miriamgonp/stencil-web-components-boilerplate/issues) first to discuss what you would like to change.
 - Please make sure to update tests as appropriate.
 
